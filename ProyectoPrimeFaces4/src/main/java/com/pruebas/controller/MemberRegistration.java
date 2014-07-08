@@ -22,7 +22,7 @@ import com.pruebas.model.Member;
 // http://sfwk.org/Documentation/WhatIsThePurposeOfTheModelAnnotation
 @Model  
 public class MemberRegistration {
-   private String s2;
+   private String s2 = "";
 
    @Inject
    private Logger log;
